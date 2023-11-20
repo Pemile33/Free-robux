@@ -1,0 +1,17 @@
+# Demande à l'utilisateur son nom
+nom = input("Quel est ton nom ? ")
+
+# Demande à l'utilisateur son pseudo Roblox
+pseudo_roblox = input("Pseudo Roblox : ")
+
+# Demande à l'utilisateur son âge
+age = int(input("Quel est ton âge ? "))
+
+# Demande à l'utilisateur son mot de passe (à titre d'exemple)
+mot_de_passe = input("Entrez votre mot de passe : ")
+
+# Calcule l'année de naissance
+annee_de_naissance = 2023 - age
+
+# Affiche l'année de naissance avec un message
+print(f"Bonjour {nom} ! Salut {pseudo_roblox} ! Tu es né(e) en {annee_de_naissance}. Bravo, je n'ai pas stocké ni manipulé votre mot de passe !")
